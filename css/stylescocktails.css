@@ -1,0 +1,39 @@
+body {
+    background-image: url("../img/foncocks.jpg") ;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin-top: 0%;
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (60 - 16) + 16px);
+    margin-bottom: 8%;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (50 - 16) + 16px);
+}
+table{
+    table-layout: auto;
+    margin: 0 auto;
+    width: 50%;
+}
+.ml{
+    text-align: right;
+}
+td {
+    width: 400px;
+    color: white;
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (40 - 16) + 16px);;
+}
+img{
+    height: 10%;
+    width: 10%;
+}
+p > img {
+    height: 12%;
+    width: 12%;
+}
+p {
+    text-align: center;
+}
